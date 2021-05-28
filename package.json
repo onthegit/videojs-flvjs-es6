@@ -33,7 +33,10 @@
     "src/",
     "index.html"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "flv.js": "^1.5.0",
+    "video.js": "^7.12.3"
+  },
   "devDependencies": {
     "glob": "^6.0.3",
     "global": "^4.3.0",
