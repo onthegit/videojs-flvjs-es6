@@ -1,6 +1,6 @@
 {
   "name": "videojs-flvjs-es6",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Video.js tech for FLV playback in MSE with flv.js use in es6 modules",
   "main": "src/plugin.js",
   "generator-videojs-plugin": {
