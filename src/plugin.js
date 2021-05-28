@@ -5,7 +5,7 @@
 import videojs from 'video.js';
 import flvjs from 'flv.js';
 
-const Html5 = videojs.getTech('Html5');
+const Html5 = videojs.getTech('html5');
 const mergeOptions = videojs.mergeOptions || videojs.util.mergeOptions;
 const defaults = {
   mediaDataSource: {},
@@ -120,6 +120,6 @@ Flvjs.canPlaySource = function(srcObj, options) {
 // Include the version number.
 Flvjs.VERSION = '__VERSION__';
 
-videojs.registerTech('Flvjs', Flvjs);
+videojs.registerTech('flvjs', Flvjs);
 
 export default Flvjs;
